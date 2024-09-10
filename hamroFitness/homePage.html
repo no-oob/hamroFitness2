@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<meta charset ="utf-8">
+	<meta name="viewport" content="width=device-width, initial scale=1">
+	<title>Hamro Fitness</title>
+	<link rel="stylesheet" href="homePage.css">
+</head>
+<body>
+	<!--Headings-->
+	<section class="header">
+		<nav>
+			<a href="homePage.html"><img src="images/logo.png"></a>
+			<div class="menuLists">
+				<ul>
+					<li><a href ="homePage.html">Home</a></li>
+					<li><a href ="">Categories</a></li>
+					<li><a href ="">Blogs</a></li>
+					<li><a href ="">About Us</a></li>
+					<li><a href =" ">Contact</a></li>
+
+				</ul>
+			</div>
+			<form action=""class="searchButton">
+				<input type="search" id= "items" search="searchButton">
+				<button type="submit">Search</button>
+			</form>
+
+			<a href="cart.html" class="cartButton">
+				<img src="images/shopcart.png"alt="Shopping Cart Icon">Cart</a>
+         
+		</nav>
+    </section>
+
+
+    <!-- Content section-->
+<section class ="content">
+	<h2>Top Sales</h2>
+
+	<div class="mostsale">
+            
+
+                <!-- Item 2 -->
+            <div class ="sales-item">
+                <a href="dumbbells.html">	<img src="images/dumb1.jpeg"alt="Dumbbells">
+              <h3 class="description" >Dumbbells</h3>
+                    <p > High-quality dumbbells for strength training.</p></a>
+                    <p class="price">$49.99</p>
+                    <button onclick="addToCart('Dumbbells', 49.99)">Buy Now</button>
+                </div>
+                <!-- Item 3 -->
+               <div class ="sales-item">
+                <a href="energydrink.html"> 	<img src="images/energydrink1.png"alt="Energy Drink">
+                    <h3>Energy Drink</h3>
+                    <p class="description">Naturally produced energy drink.</p></a>
+                    <p class="price">$19.99</p>
+                    <button onclick="addToCart('Energy Drink', 19.99)">Buy Now</button>
+                </div>
+
+                <!-- Item 4 -->
+               <div class ="sales-item">
+                <a href="protein-powder.html">	<img src="images/proteinpow.jpeg"alt="Protein Powder ">
+                    <h3>Protein Powder</h3>
+                    <p class="description"> High Quality Protien Powder</p></a>
+                    <p class="price">$70.99</p>
+                    <button onclick="addToCart('Protein Powder', 70.99)">Buy Now</button>
+                </div>
+                <div class ="sales-item">
+                <a href="protein-bar.html">	<img src="images//proteinbar.jpg"alt="Protein Bar ">
+                    <h3>Protein Bar</h3>
+                    <p class="description"> Less sugar naturally produced protein bar.</p></a>
+                    <p class="price">$14.99</p>
+                    <button onclick="addToCart('Protein Bar', 14.99)">Buy Now</button>
+                </div>
+        </div>
+    </div>
+
+<section class="recommended-products">
+            <h2>Recommended Products</h2>
+            <div class="product-list">
+                <!-- Product 1 -->
+                <div class="product">
+                <a href="Barbell.html">    <img src="images/barbell2.jpeg"alt="Barbell ">
+                    <h3>Barbell</h3>
+                    <p class="description"> High-quality barbell for strength training.</p></a>
+                    <p class="price">$99.99</p>
+                    <button onclick="addToCart('Barbell', 99.99)">Buy Now</button>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product">
+                 <a href="supplement1.html">   <img src="images/supplement1.png" alt="Vitamin B">
+                    <h3>Vitamin B</h3>
+                    <p class="description">High Quality Vitamins</p>
+                    <p class="price">$89.99</p></a>
+                    <button onclick="addToCart('Vitamin B', 89.99)">Buy Now</button>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product">
+                 <a href="product3.html">   <img src="images/energydrink2.jpeg" alt="Energy Drink">
+                    <h3>Energy Drink</h3>
+                    <p class="description">Naturally produced energy drink.</p></a>
+                    <p class="price">$10.99</p>
+                    <button onclick="addToCart('Energy Drink', 10.99)">Buy Now</button>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="product">
+                  <a href="product4.html">  <img src="images/supplement2.png" alt="Product 4">
+                    <h3>Vitamin Pack</h3>
+                    <p class="description">High Quality Vitamin Pack. Contains Vitamin B & C</p></a>
+                    <p class="price">$69.99</p>
+                    <button onclick="addToCart('Product Title 4', 69.99)">Buy Now</button>
+                </div>
+            </div>
+        </section>
+    </section>
+
+
+
+
+    <!--footer section-->
+    <footer class="footer">
+    	<div class="footerList">
+    		<div class= "businfo">
+    			<h3> About Hamro Fitness</h3>
+    			<p> Your best one-stop shopping platform for all the fitness equipment and supplements. </p>
+    		</div>
+    		<div class="footerLinks">
+    			<h4>Quick Links</h4>
+    			<ul>
+    			<li><a href ="">Home</a></li>
+					<li><a href ="">Categories</a></li>
+					<li><a href ="">Blogs</a></li>
+					<li><a href ="">About Us</a></li>
+					<li><a href =" ">Contact</a></li>
+				</ul>
+    		</div>
+    		 <div class="footersocial-media">
+                <h4>Follow Us</h4>
+                <ul>
+                    <li><a href="#"><img src="images/facebook.png" alt="Facebook"> Facebook</a></li>
+                    <li><a href="#"><img src="images/twitter.png" alt="Twitter"> Twitter</a></li>
+                    <li><a href="#"><img src="images/instagram.png" alt="Instagram"> Instagram</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact Info -->
+            <div class="footercontact">
+                <h4>Contact Us</h4>
+                <p>Email: info@hamrofitness.com</p>
+                <p>Phone: +123 0000000</p>
+                <p>Address: 123 Fitness Street, Sydney</p>
+            </div>
+        </div>
+
+        <div class="footerbottom">
+            <p>&copy; 2024 Hamro Fitness. All rights reserved.</p>
+        </div>
+    </footer>
+    	
+
+</body>
+</html>
