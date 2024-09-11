@@ -1,0 +1,419 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+body{
+	.roboto-thin {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-black {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.roboto-thin-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.roboto-light-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.roboto-regular-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.roboto-medium-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.roboto-bold-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.roboto-black-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+}
+.navibar{
+	display: flex;
+	align-items: center;
+	padding: 20px;
+}
+nav{
+	flex: 1;
+	text-align: right;
+}
+nav ul{
+	display: inline-block;
+	list-style-type:none;
+}
+nav ul li{
+	display: inline-block;
+	margin-right:20px;
+}
+
+a{
+	text-decoration:none;
+	color: black;
+}
+p{
+	color: black;
+}
+.container{
+	max-width: 1300px;
+	margin: auto;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.row{
+	display:flex;
+	align-items:center;
+	flex-wrap:wrap;
+	justify-content:space-around;
+}
+.col-1{
+	flex-basis:50%;
+	min-width:300px;
+}
+.col-1 img{
+	max-width: 100%;
+	padding: 50px 0;
+}
+.col-1 h1{
+	font-size:50px;
+	line-height: 60px;
+	margin:25px 0;
+}
+.button{
+	display: inline-block;
+	background: #ff523b;
+	color: #fff;
+	padding:8px 30px;
+	margin: 30px 0;
+	border-radius: 30px;
+	transition: background 0.5s;
+}
+.button:hover{
+	background: #563434;
+
+}
+.header{
+	background :radial-gradient(#fff,#a9a9a9);
+}
+.header .row{
+	margin-top:70px;
+}
+.categories{
+	margin: 70px 0;
+}
+.col-2{
+	flex-basis:30%;
+	min-width: 250px;
+	margin-bottom:30px;
+
+}
+.col-2 img{
+	width: 100%;
+
+}
+.smallcate{
+	max-width: 1080px;
+	margin:auto;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.col-3{
+	flex-basis: 25%;
+	padding: 10px;
+	min-width: 200px;
+	margin-bottom:50px;
+	transition: transform 0.5s;
+}
+.col-3 img{
+	width:100%;
+}
+.title{
+	text-align: center;
+	margin:0 auto 80px;
+	position:relative;
+	line-height: 60px;
+	color:#555;
+}
+.title::after{
+	content:'';
+	background: #ff523b;
+	width: 80px;
+	height: 5px;
+	border-radius:5px;
+	position: absolute;
+	bottom:0;
+	left:50%;
+	transform: translateX(-50%);
+}
+h4{
+	color: black;
+	font-weight:normal;
+
+}
+.col-3 p{
+	font-size: 14px;
+}
+.rating .fa{
+	color: #ff523b;
+}
+.col-3:hover{
+	transform: translateY(-5px);
+}
+.offer{
+	background:radial-gradient(#fff,#d0d0d0);
+	margin-top: 80px;
+	padding: 30px 0;
+}
+.col-1 .offerImg{
+	padding: 50px;
+}
+
+.testi{
+	padding-top:100px;
+}
+.testi .col-2{
+	text-align: center;
+	padding: 40 px 20px;
+	box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+	cursor:pointer;
+	transition:transform 0.5s;
+}
+.testi .col-2 img {
+	width: 50px;
+	margin-top: 20px;
+	border-radius:50%;
+}
+.testi .col-2:hover{
+transform: translateY(-10px);
+}
+.fa.fa-quote-left{
+	font-size:34px;
+}
+.col-2:p{
+	font-size: 12px;
+	margin:12px 0;
+}
+.testi .col-2 h3{
+	font-weight: :600;
+	color:#555;
+	font-size:16px;
+}
+
+.footer{
+	background:#000;
+	color: #8a8a8a;
+	font-size: 14px;
+	padding:60px 0 20px;
+}
+.footer p{
+	color:#8a8a8a;
+}
+.footer h3{
+	color: #fff;
+	margin-bottom: 20px;
+}
+.footer1, .footer2, .footer3, .footer4{
+	min-width:250px;
+	margin-bottom:20px;
+}
+.footer1{
+	flex-basis:30%;
+}
+.footer2{
+	flex:1;
+	text-align:center;
+}
+.footer2 img{
+	width:180px;
+margin-bottom:20px;
+}
+.footer3,.footer4{
+	width:12%;
+	text-align:center;
+}
+ul{
+	list-style-type: none;
+}
+.appLogo{
+	margin-top: 20px;	
+}
+.appLogo img{
+	width:50px;
+}
+.footer hr{
+	border:none;
+	background:#b5b5b5;
+	height:1px;
+	margin: 20px 0;
+}
+.copyright{
+	text-align:center;
+}
+.menuIcon{
+	width: 28px;
+	margin-left: 20px;
+}
+
+.row2{
+	justify-content: space-between;
+	margin:100px auto 50px;
+}
+select{
+	border: 1px solid skyblue;
+	padding: 5px;
+}
+select:focus{
+	outline:none;
+
+}
+.pagebtn{
+	margin:0 auto 80px;
+}
+.pagebtn span{
+display:inline-block;
+border:1px solid skyblue;
+margin-left: 10px;
+width:40px;
+height:40px;
+text-align:center;
+line-height:40px;
+cursor:pointer;
+}
+.pagebtn span:hover{
+	background:skyblue;
+	color: white;
+}
+
+.singleproduct{
+	margin-top:80px;
+}
+.singleproduct .col-1 img{
+	padding:0;
+
+}
+.singleproduct .col-1{
+	padding:20px;
+}
+.singleproduct h4{
+	margin:20px 0;
+	font-size:22px;
+	font-weight:bold;
+}
+.singleproduct select{
+	display: block;
+	padding:10px;
+	margin-top:20px;
+}
+.singleproduct input{
+	width:50px;
+	height:40px;
+	padding-left:10px;
+	font-size:20px;
+	border:1pz solid skyblue;
+}
+input:focus{
+	outline:none;
+}
+.singleproduct .fa{
+	color: skyblue;
+	margin-left:10px;
+}
+.cartpage{
+	margin:80px auto;
+}
+table{
+	width:100%;
+	border-collapse:collapse;
+}
+.cartInfo{
+	display:flex;
+	flex-wrap:wrap;
+}
+th{
+	text-align: left;
+	padding:5px;
+	color:#fff;
+	background:skyblue;
+	font-weight: normal;
+}
+td{
+	padding:10px 5px;
+}
+td input{
+	width:40px;
+	height:30px;
+	padding: 5px;
+}
+td a{
+	color:skyblue;
+	fontsize:12px;
+}
+td img{
+	width:80px;
+	height:80px;
+	margin-right:10px;
+}
+.totalprice{
+	display:flex;
+	justify-content: flex-end;
+}
+.totalprice table{
+	border-top: 3px solid skyblue;
+	width:100%;
+	max-width:400px;
+}
+td:last-chid{
+	text-align:right;
+}
+th:last-child{
+	text-align:right;
+}
